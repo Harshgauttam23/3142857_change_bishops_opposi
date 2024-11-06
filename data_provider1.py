@@ -7,7 +7,7 @@ import streamlit as st
 # Function to process the PDF
 def process_pdf(pdf_file):
     # Read the Excel file where previous data is stored
-    Previous_data = pd.read_excel('C:/Users/harsh.gautam/Desktop/April/Tracker/harsh_nov_6.xlsx')
+    Previous_data = pd.read_excel('harsh_nov_6.xlsx')
 
     # Read the PDF from the uploaded file object
     pdf_reader = PdfReader(pdf_file)
