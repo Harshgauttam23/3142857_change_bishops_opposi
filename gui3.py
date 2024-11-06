@@ -4,7 +4,7 @@ from data_provider1 import process_pdf
 import matplotlib.pyplot as plt
 
 # Path for saving the updated data
-Path_data = 'C:/Users/harsh.gautam/Desktop/April/Tracker/harsh_nov_6.xlsx'
+Path_data = 'harsh_nov_6.xlsx'
 
 # Function to save updated DataFrame to CSV
 def save_to_file(df, filename="updated_data.csv"):
