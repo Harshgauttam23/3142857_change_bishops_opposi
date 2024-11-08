@@ -47,8 +47,8 @@ with tab1:
             st.session_state['unique_categories'] = list(set(df['Category'].dropna().unique().tolist() + st.session_state['unique_categories']))
 
             # Add "Add new..." option to dropdown lists
-            unique_labels = st.session_state['unique_labels'] + ["Add new..."]
-            unique_categories = st.session_state['unique_categories'] + ["Add new..."]
+            unique_labels = st.session_state['unique_labels'] + ["Personal","Home"]
+            unique_categories = st.session_state['unique_categories'] + ["Personal","Home"]
 
             with st.form(key="data_form"):
                 for index, row in blank_rows.iterrows():
